@@ -6,6 +6,7 @@ const projectRouter = require("./data/helpers/projectRouter.js");
 const actionRouter = require("./data/helpers/actionRouter.js");
 
 server.use(express.json());
+server.use(cors());
 
 server.use("/projects", logger, projectRouter);
 server.use("/actions", logger, actionRouter);

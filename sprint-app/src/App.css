@@ -110,14 +110,7 @@ body {
   box-shadow: 0 1px 6px -2px #000;
   background-color: #FFF;
   margin-bottom: 30px;
-  margin: 0 30px;
-}
-
-.card img {
-  width: 150px;
-  height: 150px;
-  border-radius: 3px;
-  margin-right: 20px;
+  margin: 10px 30px;
 }
 
 .card .name {
@@ -129,8 +122,6 @@ body {
   margin-bottom: 3px;
 }
 
-.card .username {
-  font-size: 1.8rem;
-  font-style: italic;
-  margin: 3px 0 10px;
+.form{
+  margin: 5px auto;
 }

@@ -5,6 +5,7 @@ import React, {
 import axios from 'axios';
 import Card from './components/Card'
 import './App.css';
+import ProjectForm from './components/ProjectForm';
 
 const initialList = [{
   id: 0,
@@ -23,14 +24,19 @@ function App() {
   };
   useEffect(() => {
     getProjectList();
-  }, []);
+  }, projectList);
+
+  
 
   return (
+    <div>
+    <ProjectForm />
     <div className='cards'>
     {
       projectList.map(project => {
             return <Card props = {project} />
           })} 
+    </div>
     </div>
   );
 }
