@@ -82,7 +82,7 @@ const handleSubmit = e => {
     <div className='cards'>
     {
       projectList.map(project => {
-            return <Card props = {project} />
+            return <Card props = {project} getProjectList={getProjectList}/>
           })} 
     </div>
     </div>
