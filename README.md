@@ -40,14 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    middleware, routing
+
 - [ ] Describe Middleware?
+
+    an array of functions the developer can create that is executed in the order they are declared
 
 - [ ] Describe a Resource?
 
+    in a restful API everything is a resource
+
 - [ ] What can the API return to help clients know if a request was successful?
+
+    status codes
 
 - [ ] How can we partition our application into sub-applications?
 
+    with express routers
+    
 ## Minimum Viable Product
 
 - [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
